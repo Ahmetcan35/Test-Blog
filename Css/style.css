@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+    margin: 0;
+}
+
+#menu {
+    height: 80px;
+    background-color: gray;
+    padding: 0 20px;
+    z-index: 4;
+    position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+
+}
+
+#logo {
+    font-size: 30px;
+    line-height: 80px;
+    color: aliceblue;
+    float: left;
+}
+
+nav {
+    float: right;
+    line-height: 80px;
+}
+
+nav a {
+    color: aliceblue;
+}
+
+nav a:link {
+    text-decoration: none;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+nav a:hover {
+    border-bottom: 2px solid aliceblue;
+}
+
+nav a:visited {
+    text-decoration: none;
+    margin-right: 20px;
+    color: aliceblue;
+}
+
+nav a i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+#home {
+    height: 600px;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#black {
+    height: 600px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+#homecontent {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+}
+
+#info {
+    background-color: #f8f9fa;
+    padding: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+
+h3 {
+    font-size: 55px;
+    color: #003666;
+    text-shadow: 0 1px 1px black;
+    font-weight: 600;
+}
+
+.container {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+#left {
+    float: left;
+    border-right: 3px solid #445c6e;
+    font-size: 30px;
+    width: 400px;
+    color: #445c6e;
+}
+
+#lefth5 {
+    font-size: 25px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+
+#lefth5,
+right {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+span {
+    font-size: 50px;
+    margin-right: -50px;
+    line-height: 42px;
+    color: #003666;
+    float: left;
+}
+
+#right {
+    float: right;
+    width: 750px;
+    color: #999999;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.mt100 {
+    margin-top: 100px;
+}
+
+#last {
+    color: #999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-top: 30px;
+}
+
+#training {
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+
+.card {
+    width: 280px;
+    height: 350px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+    background-color: #fff;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+
+}
+
+.cardh5 {
+    font-size: 15px;
+    color: #003666;
+
+}
+
+.cardp {
+    color: #888;
+}
+
+.cardimg {
+    border-radius: 25px;
+}
+.owl-stage-outer{
+    padding: 20px;
+}
+#crew{ 
+    background-color:#003666;
+    padding: 5px;
+    height: 700px;
+}
+.crewh3{
+    text-align: center;
+    color: #fff;
+}
+.person-right-left{
+    width: 385px;
+    float: left;
+    padding: 30px;
+    text-align: center;
+}
+.crewimg{
+    width: 280px;
+    height: auto;
+    border-radius: 50%;
+}
+.crewh5{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.personp{
+    font-size: 18px;
+    color: #888;
+}
+.social{
+}
+.icon{
+    color: #fff;
+    font-size: 20px;
+    width: 40px;
+    padding: 5px;
+}
+.icon:hover{
+    background-color: #888;
+    border-radius: 5px;
+}
+.person-mid{
+     width: 385px;
+    float: left;
+    padding: 0px;
+    text-align: center;
+}
+#sendus{
+    height: auto;
+    background-image: url(../img/ocean.jpg);
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    background-size: cover;
+}
+#sendh3{
+    text-align: center;
+    color: #fff;
+}
+#opak{
+    background-color: rgba(255,255,255,0.35);
+    padding: 30px 20px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    height: 550px;
+}
+#formgroup{
+    float:left; 
+    width: 700px;
+    height: 500px;
+    text-align:left;
+}
+
+#leftform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+#rightform{
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-right: 5px;
+    border: 1px solid #ced4da;
+    
+}
+textarea{
+    font-family: "Ubuntu Sans", sans-serif;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: #445c6e;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#adress{
+    width: 400px;
+    float: right;
+    height: 500px;
+    color: #fff;
+    text-align: left;
+}
+#sendh4{
+    font-size: 30px;
+}
+.adressp{
+    color: #ddd;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    
+}
+#copyright{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 10px;
+}
+#up{
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 20px;
+    margin: 20px 5px;
+    padding: 9px 10px;
+    
+}
